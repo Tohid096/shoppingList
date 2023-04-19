@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="script" href="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js" type="module">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div class="container">
+        <img src="sammy-line-girl-sitting-in-a-shopping-cart.png" alt="shopping" width="150" height="150">
+     
+        <input type="text" width="15" size="15" name="ItemName" placeholder="Enter Item Name" id="item" required="required">
+        <input type="submit" value="Add To List" id="addbtn">
+        
+    </div>
+    <ul id="shopping-list">
+        <!--<li>Oranges</li>
+        <li>Apples</li>-->
+    </ul>
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js" type="module"></script>
+<script src="app.js" type="module"></script>
+</html>
